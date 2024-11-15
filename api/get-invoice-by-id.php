@@ -55,6 +55,7 @@ if (!$invoiceObject['status']) {
 
 $invoice['id'] = $invoiceObject['invoice']->getId();
 $invoice['status'] = $invoiceObject['invoice']->getStatus();
+$invoice['version'] = $invoiceObject['invoice']->getVersion();
 
 $orderObject = GetOrder($client, $invoiceObject['invoice']->getOrderId());
 $fulfillments = $orderObject['order']->getFulfillments();
