@@ -1,0 +1,12 @@
+
+
+.admin-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.admin-login-form {
+  width: 100%;
+  padding: 10px;
+}

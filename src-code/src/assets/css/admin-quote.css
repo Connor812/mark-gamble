@@ -1,0 +1,84 @@
+.display-quote-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.display-quote {
+  width: 100%;
+  max-width: 1000px;
+  padding-top: 30px;
+  position: relative;
+}
+
+.quote-hr {
+  width: 80%;
+}
+
+.quote-billing-address-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.quote-billing-address {
+  list-style: none;
+}
+
+.quote-action-btns-container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  top: 30px;
+  right: 0;
+}
+
+.admin-send-quote-btn,
+.admin-send-denial-btn {
+  width: 150px;
+  height: 64px;
+  padding: 20px 0;
+  border: none;
+  border-radius: 40px;
+  color: var(--white);
+  transition: 200ms;
+}
+
+.admin-send-quote-btn {
+  background-color: var(--light-blue);
+}
+
+.admin-send-quote-btn:hover {
+  background-color: var(--light-blue-hover);
+}
+
+.admin-send-denial-btn {
+  background-color: var(--red);
+}
+
+.admin-send-denial-btn:hover {
+  background-color: var(--red-hover);
+}
+
+.quote-items-table {
+  width: 100%;
+}
+
+.quote-product-img {
+  width: 100%;
+  max-width: 150px;
+}
+
+.instock {
+  color: var(--green);
+}
+
+.out-of-stock {
+  color: var(--red);
+}
+
+.send-quote-modal-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}

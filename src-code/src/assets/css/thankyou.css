@@ -1,0 +1,22 @@
+.thankyou-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.thankyou-img {
+  width: 100%;
+  max-width: 500px;
+}
+
+.center-thankyou-text {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.thankyou-container {
+    max-width: 500px;
+    width: 100%;
+}

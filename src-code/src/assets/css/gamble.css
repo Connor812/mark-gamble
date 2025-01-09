@@ -1,0 +1,216 @@
+@charset "UTF-8";
+
+:root {
+  --light-blue: #5ac4f6;
+  --light-blue-hover: rgb(90, 150, 246);
+  --white: #ffffff;
+  --black: #000000;
+  --grey: #6d7782;
+  --dark-grey: #343a40;
+  --dark-grey-hover: #495058;
+  --grey-opacity: #d8d8d8;
+  --light-grey: #9a9da0;
+  --light-grey-hover: #9a9da0;
+  --teal: #4dabc0;
+  --teal-hover: #3f8d9f;
+  --red: #ff0000;
+  --red-hover: #da0000;
+  --green: #01c901;
+  --orange: #ff7f00;
+}
+
+body,
+#root {
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  scroll-behavior: smooth;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+.gnavbar {
+  background-color: black;
+}
+
+.jtitle {
+  font-size: 3vw;
+  color: white;
+  text-shadow: 3px 3px 3px #323131;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  padding: 1% 3%;
+  border: thin solid black;
+}
+
+.jblock {
+}
+
+.carousel-caption2 {
+  position: absolute;
+  right: 5%;
+  bottom: 20px;
+  left: 5%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.loader {
+  padding: 3% 0%;
+}
+
+.davetest {
+  color: blue;
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.ghead {
+  font-family: Arial;
+  color: #000000;
+  font-size: 2.25vw;
+  font-weight: bold;
+}
+
+.gtext {
+  font-family: Arial;
+  color: #000000;
+  font-size: 1.5vw;
+  font-weight: 200;
+}
+
+.blackbar {
+  background-color: black;
+  padding: 2% 5%;
+  color: white;
+  font-size: 2vw;
+  font-weight: bold;
+  font-kerning: normal;
+}
+
+.loader2 {
+  width: 100%;
+}
+
+.bigdigger {
+}
+
+.navtitle {
+  font-family: Baskerville, "Palatino Linotype", "Palatino",
+    "Century Schoolbook L", Times New Roman, "serif";
+  font-size: 2.5vw;
+  color: white;
+}
+
+.loader3 {
+  padding-top: 10%;
+}
+
+.stripofscenes {
+  padding-top: 1%;
+  border: 0%;
+}
+
+.sprayer {
+  padding: 15% 0%;
+}
+
+.contactimages {
+  padding: 10% 0%;
+}
+
+.textholder {
+  padding: 5% 0%;
+}
+
+.businesslore {
+  font-size: 1vw;
+}
+
+.override {
+  width: 70%;
+}
+
+.btn {
+  background-color: var(--light-blue);
+  border: none;
+  border-radius: 50px;
+  padding: 0 40px;
+  color: var(--white);
+  transition: 200ms;
+}
+
+.btn:hover {
+  background-color: var(--light-blue-hover);
+  color: var(--white);
+}
+
+.back {
+  color: var(--black);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.back:hover {
+  cursor: pointer;
+}
+
+.back svg {
+  transition: 200ms;
+}
+
+.back:hover svg {
+  transform: translateX(-5px);
+}
+
+.loading {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-qty-badge {
+  position: absolute;
+  top: -10px;
+  right: -15px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: red;
+  color: var(--white);
+  border-radius: 50%;
+  padding: 5px;
+  font-size: 0.8rem;
+}
+
+.cart-icon {
+  position: relative;
+}
+
+.cart-icon svg {
+  width: 20px;
+  height: 20px;
+}
+
+.home-banner {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--black);
+  color: var(--white);
+}
